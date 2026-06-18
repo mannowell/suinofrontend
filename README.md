@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# 🐷 SuinoFrontend - Frontend React para Gestão de Granja
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Version](https://img.shields.io/badge/version-0.1.0-green.svg)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![React Router](https://img.shields.io/badge/React%20Router-7-CA4245?logo=reactrouter)
+![Axios](https://img.shields.io/badge/Axios-1.7-5A29E4?logo=axios)
+![CRA](https://img.shields.io/badge/CRA-5.0-09D3AC?logo=createreactapp)
 
-## Available Scripts
+Frontend moderno em **React 19** para o sistema de gestão de granja de suínos. Interface SPA (Single Page Application) construída com Create React App, React Router 7 e Axios para comunicação com a API.
 
-In the project directory, you can run:
+---
+
+## 🚀 Funcionalidades
+
+- **Dashboard Interativo** — Visualização em tempo real do estado da granja.
+- **Gestão de Pavilhões** — Controle completo de pavilhões e parques.
+- **Registro de Rondas** — Formulários para registro diário de condições.
+- **Relatórios** — Geração e visualização de relatórios automatizados.
+- **Navegação SPA** — Rotas fluidas com React Router 7.
+- **Comunicação com API** — Integração via Axios com o backend.
+
+## 🛠️ Tecnologias Utilizadas
+
+| Componente | Tecnologia |
+|-----------|-----------|
+| **Framework** | React 19 |
+| **Roteamento** | React Router DOM 7 |
+| **HTTP Client** | Axios |
+| **Build Tool** | Create React App 5 |
+| **Linguagem** | JavaScript (ES6+) |
+
+## 📦 Instalação e Execução
+
+### Pré-requisitos
+- [Node.js](https://nodejs.org/) v16 ou superior
+
+### Passos para Inicialização
+
+1. **Clonar o repositório**
+   ```bash
+   git clone https://github.com/manowell/suinofrontend.git
+   cd suinofrontend
+   ```
+
+2. **Instalar dependências**
+   ```bash
+   npm install
+   ```
+
+3. **Iniciar o servidor de desenvolvimento**
+   ```bash
+   npm start
+   ```
+
+Acesse **http://localhost:3000** no seu navegador.
+
+## 📂 Estrutura do Projeto
+
+```
+suinofrontend/
+├── public/
+│   └── index.html         # Template HTML principal
+├── src/
+│   ├── components/        # Componentes reutilizáveis
+│   ├── pages/             # Páginas da aplicação
+│   ├── services/          # Configuração do Axios e chamadas API
+│   ├── App.js             # Componente raiz e rotas
+│   └── index.js           # Ponto de entrada
+├── package.json           # Dependências e scripts
+└── README.md
+```
+
+## 📜 Scripts Disponíveis
+
+No diretório do projeto, você pode executar:
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Executa o app em modo de desenvolvimento em [http://localhost:3000](http://localhost:3000).
 
 ### `npm run build`
+Compila o app para produção na pasta `build/`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `npm test`
+Executa os testes em modo interativo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 👨‍💻 Autor
 
-### `npm run eject`
+**Wellison Oliveira (mannowell)**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[![GitHub](https://img.shields.io/badge/GitHub-mannowell-181717?logo=github)](https://github.com/manowell)
+[![Upwork](https://img.shields.io/badge/Upwork-Wellison%20Oliveira-6FDA44?logo=upwork)](https://www.upwork.com/freelancers/~01a3c7e5e6e0e0e0)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-000000?logo=vercel)](https://mannowell.dev)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📄 Licença
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Este projeto está sob a licença [MIT](./LICENSE).
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 Contribuindo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contribuições são bem-vindas! Siga os passos abaixo:
 
-### Code Splitting
+1. Faça um **fork** do projeto.
+2. Crie uma **branch** para sua feature (`git checkout -b feature/minha-feature`).
+3. Faça **commit** das suas alterações (`git commit -m 'Adiciona nova feature'`).
+4. Faça **push** para a branch (`git push origin feature/minha-feature`).
+5. Abra um **Pull Request**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Por favor, siga as boas práticas de código e mantenha a consistência com o estilo existente.
